@@ -26,8 +26,8 @@ services:
     container_name: "polar-postgres"
     networks:
       - polar
-    ports:
-      - 5432:5432
+#    ports:
+#      - 5432:5432
     environment:
       - POSTGRES_USER=user
       - POSTGRES_PASSWORD=postgres
